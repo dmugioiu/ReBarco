@@ -20,7 +20,7 @@ Shows a Test pattern with white LEDs in a brightness gradient.
 Connects to a MQTT Broker over WiFi at "homeassistant.local" using the credentials "barco:barco" using the homeassistant autoconfiguration protocol.
 The device is automatically detected as a color light if homeassistant is set up with the MQTT extension and a broker addon.
 
-Attention: If you got your Barco Strip as a gift it probably tries to connect to Dan's WiFi and won't connect to yours.
+*Attention:* If you got your Barco Strip as a gift it probably tries to connect to Dan's WiFi and won't connect to yours.
 Entering your WiFi credentials and re-building the firmware is left as an excersise to the reader :-)
 
 
