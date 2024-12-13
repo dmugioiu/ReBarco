@@ -21,7 +21,7 @@ Connects to a MQTT Broker over WiFi at "homeassistant.local" using the credentia
 The device is automatically detected as a color light if homeassistant is set up with the MQTT extension and a broker addon.
 
 Attention: If you got your Barco Strip as a gift it probably tries to connect to Dan's WiFi and won't connect to yours.
-Entering your WiFi credentials and re-building the firmware is left as an excersice to the reader :-)
+Entering your WiFi credentials and re-building the firmware is left as an excersise to the reader :-)
 
 
 ### Mode 2-F
@@ -30,6 +30,7 @@ Reserved for future use.
 ## Ideas for further modes or features
 - Implement the "old" protocol, maybe using WiFi multicast to support the existing programs.
 - Better WiFi provisioning without rebuilding.
+- Your contribution is highly appreciated :-)
 
 ## How to build
 
