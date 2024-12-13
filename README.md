@@ -38,6 +38,7 @@ Reserved for future use.
 - Follow installation instructions
 - Clone repository
 - Open Folder in VSCode
+- Connect USB (Normally no reset or button press neccesary)
 - Select COM Port in Footer Bar
 - Select JTAG as programming mode in Footer Bar
 - Press Flash in Footer Bar
