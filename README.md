@@ -18,7 +18,21 @@ Shows a Test pattern with white LEDs in a brightness gradient.
 
 ### Mode 2
 Connects to a MQTT Broker over WiFi at "homeassistant.local" using the credentials "barco:barco" using the homeassistant autoconfiguration protocol.
-The device is automatically detected as a color light if homeassistant is set up with the MQTT extension and a broker addon.
+The device is automatically detected as a color light if homeassistant is set up with the MQTT extension and a broker addon. 
+This works by publishing the topic ```homeassistant/light/rebarco_rgb_light/F0F5BD02E940/config``` with the following content:
+```
+{"name": "ReBarco RGB Light <SHORT MAC>","unique_id": "rebarco_rgb_light_<SHORT MAC>","command_topic": "rebarco/<MAC>/set","state_topic": "rebarco/<MAC>/state","schema": "json","rgb": true,"brightness": true}
+```
+
+The state of the device is published on the topic ```rebarco/<MAC>/state```:
+```
+{"state":"ON", "brightness":255, "color":{"r":255,"g":0,"b":174}}
+```
+
+The device can be controlled by publishing on the topic ```rebarco/<MAC>/set```:
+```
+{"state":"ON", "brightness":255, "color":{"r":255,"g":12,"b":36}}
+```
 
 **Attention:** If you got your Barco Strip as a gift it probably tries to connect to Dan's WiFi and won't connect to yours.
 Entering your WiFi credentials and re-building the firmware is left as an excersise to the reader :-)
