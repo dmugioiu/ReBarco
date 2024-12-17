@@ -10,7 +10,7 @@ Select mode using the rotary switch on the controller and plug in.
 | Mode   |      Function      |
 |----------|:-------------:|
 | 0 |  Test Pattern |
-| 1 |    Connect to MQTT broker   |
+| 1 |    Connect to MQTT broker as RGB Light   |
 | 2-F | Unused |
 
 ### Mode 0
