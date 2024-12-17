@@ -13,10 +13,10 @@ Select mode using the rotary switch on the controller and plug in.
 | 1 |    Connect to MQTT broker   |
 | 2-F | Unused |
 
-### Mode 1
+### Mode 0
 Shows a Test pattern with white LEDs in a brightness gradient.
 
-### Mode 2
+### Mode 1
 Connects to a MQTT Broker over WiFi at "homeassistant.local" using the credentials "barco:barco" using the homeassistant autoconfiguration protocol.
 The device is automatically detected as a color light if homeassistant is set up with the MQTT extension and a broker addon. 
 This works by publishing the topic ```homeassistant/light/rebarco_rgb_light/F0F5BD02E940/config``` with the following content:
@@ -38,7 +38,7 @@ The device can be controlled by publishing on the topic ```rebarco/<MAC>/set```:
 Entering your WiFi credentials and re-building the firmware is left as an excersise to the reader :-)
 
 
-### Mode 3 to F
+### Mode 2 to F
 Reserved for future use.
 
 ## Ideas for further modes or features
