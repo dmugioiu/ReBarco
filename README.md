@@ -42,7 +42,7 @@ Entering your WiFi credentials and re-building the firmware is left as an excers
 Reserved for future use.
 
 ## Ideas for further modes or features
-- Implement the "old" UDP protocol, maybe using WiFi multicast to support the existing programs.
+- Implement the "old" UDP protoco (maybe using WiFi multicast) to support the existing programs.
 - Better WiFi provisioning on runtime.
 - Zigbee/Thread Light
 - Your contribution is highly appreciated :-)
