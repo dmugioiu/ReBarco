@@ -42,6 +42,7 @@ Entering your WiFi credentials and re-building the firmware is left as an excers
 Reserved for future use.
 
 ## Ideas for further modes or features
+- Improve code architecture and style. Current state was hacked in two evenings.
 - Implement the "old" UDP protocol (maybe using WiFi multicast) to support the existing programs. Parts of the rotary switch could be used as an address to use multiple strips.
 - Better WiFi provisioning on runtime.
 - Zigbee/Thread Light
