@@ -38,12 +38,13 @@ The device can be controlled by publishing on the topic ```rebarco/<MAC>/set```:
 Entering your WiFi credentials and re-building the firmware is left as an excersise to the reader :-)
 
 
-### Mode 2-F
+### Mode 3 to F
 Reserved for future use.
 
 ## Ideas for further modes or features
-- Implement the "old" protocol, maybe using WiFi multicast to support the existing programs.
-- Better WiFi provisioning without rebuilding.
+- Implement the "old" UDP protocol, maybe using WiFi multicast to support the existing programs.
+- Better WiFi provisioning on runtime.
+- Zigbee/Thread Light
 - Your contribution is highly appreciated :-)
 
 ## How to build
